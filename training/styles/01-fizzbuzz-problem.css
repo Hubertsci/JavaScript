@@ -1,0 +1,49 @@
+p {
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 7px 10px;
+  height: 16px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+.fizzbuzz-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fizzbuzz-list-container {
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  text-align: center;
+}
+
+.item-container {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.render-button {
+  height: 30px;
+  padding: 4px 8px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+
+  transition: background-color 0.3s,
+  color 0.3s;
+}
+
+.render-button:hover {
+  background-color: white;
+  color: black;
+}

@@ -1,0 +1,153 @@
+p {
+  text-align: center;
+  margin: 5px;
+}
+
+input {
+  padding: 7px 10px;
+  height: 16px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  margin-bottom: 5px;
+}
+
+.game-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.game-field-container {
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  row-gap: 10px;
+  column-gap: 10px;
+  background-color: black;
+  text-align: center;
+}
+
+.move-button {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+
+  transition: background-color 0.3s;
+}
+
+.move-button:hover {
+  background-color: lightgray;
+}
+
+.moved-button {
+  height: 100px;
+  width: 100px;
+  padding-bottom: 25px;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  font-size: 75px;
+  border: none;
+}
+
+.disappear-message-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  width: 320px;
+  height: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  background-color: lightgray;
+  border-radius: 5px;;
+}
+
+.submit-button {
+  height: 30px;
+  padding: 4px 8px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+
+  transition: background-color 0.3s,
+  color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.player1-score-container,
+.player2-score-container {
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  width: 320px;
+  height: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+.player1-score-container {
+  justify-content: right;
+}
+
+.player2-score-container {
+  justify-content: left;
+}
+
+.messages-container {
+  display: flex;
+}
+
+.game-button {
+  height: 50px;
+  width: 150px;
+  margin: 5px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  transition: background-color 0.3s;
+}
+
+.game-button:hover {
+  background-color: gray;
+}
+
+.game-button:disabled {
+  cursor: default;
+  background-color: lightgray;
+  color: gray;
+}
+
+.move-info-container {
+  padding: 0 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+}
+
+.score {
+  padding: 5px;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+}

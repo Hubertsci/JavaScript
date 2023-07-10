@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FizzBuzz Problem</title>
+    <link rel="stylesheet" href="styles/01-fizzbuzz-problem.css">
+  </head>
+  <body>
+    <div class="fizzbuzz-container">
+      <h2>FizzBuzz Problem</h2>
+
+      <div class="fizzbuzz-input-container">
+        <input placeholder="Enter number..." class="js-number-input">
+        <button onclick="
+          renderList(getNumber());
+          " class="render-button">
+          Render
+        </button>
+      </div>
+
+      <div class="js-disappear-message"></div>
+      <div class="js-fizzbuzz-list fizzbuzz-list-container"></div>
+    </div>
+
+    <script src="scripts/01-fizzbuzz-problem.js"></script>
+  </body>
+</html>
